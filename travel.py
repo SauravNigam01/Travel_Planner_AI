@@ -36,7 +36,7 @@ Avoid unnecessary details; focus on what is most helpful for travel planning.'''
 #LOGIC 2 : chat_model
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-chat_model=ChatGoogleGenerativeAI(google_api_key="AIzaSyBfYBTLY9P0ubbiOMIqhtctYYd1kawWlXY",model="gemini-2.0-flash-exp",temperature=1)
+chat_model=ChatGoogleGenerativeAI(google_api_key="Enter_Your_API_Key",model="gemini-2.0-flash-exp",temperature=1)
 
 
 # LOGIC 3 : output_parsers
